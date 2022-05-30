@@ -5,7 +5,7 @@ const app = express();
 
 app.get("/", function (res, res){
 
-  const url = "https://api.openweathermap.org/data/2.5/weather?q=Brasilia,br&appid=9cc9e32c924be38747da62f005f00fe6&units=metric";
+  const url = "https://api.openweathermap.org/data/2.5/weather?q=Brasilia,br&appid=???????????????&units=metric";
 
   https.get(url, function (response){
     console.log(response.statusCode);
